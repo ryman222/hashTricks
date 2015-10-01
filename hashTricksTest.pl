@@ -11,7 +11,8 @@ my @testInput = ( "Alice:CS:A",
   		  "Alice:HP:C", 
 		  "Bob:Math:C", 
 		  "Ted:CS:B", 
-		  "Beth:Shop:C");
+		  "Beth:Shop:C",
+          "Troy:CS:A");
 
 ok(getName($testInput[0]) eq "Alice");
 
